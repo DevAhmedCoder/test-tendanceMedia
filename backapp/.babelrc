@@ -1,0 +1,19 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-proposal-do-expressions",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "Controllers": "./src/Controllers",
+          "Middleware": "./src/Middleware",
+          "Models": "./src/Models",
+          "Routes": "./src/Routes",
+          "Config": "./Config",
+          "Helpers": "./src/Helpers"
+        }
+      }
+    ]
+  ]
+}

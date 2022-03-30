@@ -1,0 +1,7 @@
+.collapsible:hover .content {
+  display: block;
+  transition: 1s ease-out;
+}
+.content {
+  display: none;
+}

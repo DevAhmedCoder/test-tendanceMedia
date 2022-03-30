@@ -1,0 +1,43 @@
+{
+  "name": "za_boilerplate_backend",
+  "version": "0.1.0",
+  "description": "BoilerPlate backend ZA_project with NodeJs",
+  "main": "index",
+  "scripts": {
+    "start": "nodemon --exec babel-node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAhmedCoder/ZA_BoilerPlate_BackEnd.git"
+  },
+  "keywords": [
+    "devahmedcoder"
+  ],
+  "author": "ZA_team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevAhmedCoder/ZA_BoilerPlate_BackEnd/issues"
+  },
+  "homepage": "https://github.com/DevAhmedCoder/ZA_BoilerPlate_BackEnd#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-proposal-do-expressions": "^7.14.5",
+    "@babel/preset-env": "^7.14.9",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint-import-resolver-babel-module": "^5.1.2",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.12"
+  }
+}

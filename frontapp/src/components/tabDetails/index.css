@@ -1,0 +1,15 @@
+.tabDetailsContainer {
+  top: 124.5px;
+  left: 139px;
+  width: 1029px;
+
+  box-shadow: 0px 3px 20px #e4edf5;
+  position: absolute;
+}
+.selectFilter {
+  width: 199px;
+  height: 40px;
+  /* UI Properties */
+  background: #f4f7f8 0% 0% no-repeat padding-box !important;
+  border-radius: 10px;
+}

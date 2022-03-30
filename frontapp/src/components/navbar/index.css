@@ -1,0 +1,15 @@
+.navbarContainer {
+  top: 28px;
+  left: 139px;
+  width: 1029px;
+  height: 73px;
+  box-shadow: 0px 3px 20px #e4edf5;
+  border-radius: 11px;
+  position: absolute;
+}
+.profile-round-circle {
+  clip-path: circle();
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
